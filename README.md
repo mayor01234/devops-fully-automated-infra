@@ -49,6 +49,18 @@ Fully automated and secured Terraform infra pipeline
 3)  #### Pipeline creation
     - Click on **New Item**
     - Enter an item name: **app-infra-pipeline** & select the category as **Pipeline**
+    - Try sample script for hello world and build now 
+    - Try configure again and replace the sample code with the jenkinsfile code 
+    - build now and try to fix the checkov error 
+    - create new folder and name it cicd-workshop
+    - Open VScode and clone the code in the github repository by typing git clone Repository URL
+    - Now cd into devops-fully-automated -infra 
+    - update keypair in Var.tf 
+    - update region in provider.tf
+    -update ami in ec2.tf and also uncomment the checkov scannner
+    - save changes and push changes to repository by typing git add .
+    - then type git commit -m "Code improvements"
+    - then git push
     - Now scroll-down and in the Pipeline section --> Definition --> Select Pipeline script from SCM
     - SCM: **Git**
     - Repositories
